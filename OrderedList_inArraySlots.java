@@ -31,7 +31,7 @@ public class OrderedList_inArraySlots
               using the classic reigning champ algorithm
      */
      private int champIndex( ArrayList<Integer> challengers) {
-         double dweeb = Double.POSITIVE_INFINITY;
+         int dweeb = Integer.MAX_VALUE;
          int dweebLocation = 0;
          for (int index = 0; index < challengers.size(); index++) {
              if (challengers.get(index) != null && challengers.get(index) < dweeb) {
