@@ -33,12 +33,11 @@ public class OrderedList_inArraySlots
      private int champIndex( ArrayList<Integer> challengers) {
          int dweeb = Integer.MAX_VALUE;
          int dweebLocation = 0;
-         for (int index = 0; index < challengers.size(); index++) {
+         for (int index = 0; index < challengers.size(); index++)
              if (challengers.get(index) != null && challengers.get(index) < dweeb) {
                  dweeb = challengers.get(index);
                  dweebLocation = index;
              }
-         }
          return dweebLocation;
      }
 
